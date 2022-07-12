@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me {
+  display: flex;
+  align-self: center;
+}
+.projects {
+  display: flex;
+  align-self: center;
+}
+.contact {
+  display: flex;
+  align-self: center;
+}

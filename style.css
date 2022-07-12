@@ -21,14 +21,14 @@
 }
 
 .about-me {
-  display: flex;
-  align-self: center;
+  /* display: flex;
+  align-self: center; */
 }
 .projects {
-  display: flex;
-  align-self: center;
+  /* display: flex;
+  align-self: center; */
 }
 .contact {
-  display: flex;
-  align-self: center;
+  /* display: flex;
+  align-self: center; */
 }

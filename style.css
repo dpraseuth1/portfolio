@@ -13,11 +13,14 @@
 .main-header {
   display: flex;
   justify-content: space-between;
+  height: 200px;
+  margin-top: 20px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  gap: 50px;
 }
 
 .about-me {
@@ -31,4 +34,21 @@
 .contact {
   /* display: flex;
   align-self: center; */
+}
+
+/* SKILLS AND TOOLS SECTION SIDE BY SIDE IN ABOUT ME */
+
+.skills-tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
 }

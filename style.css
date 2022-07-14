@@ -21,13 +21,15 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  width: 960px;
+  margin: 0 auto;
 }
 
 .about-me {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 48px;
 }
 
 .projects {
@@ -39,12 +41,23 @@
   align-self: center; */
 }
 
+/* ABOUT ME SECTION WITH PICTURE */
+.about-section {
+  align-self: center;
+}
+
+img {
+  height: 350px;
+  width: auto;
+  justify-self: center;
+}
+
 /* SKILLS AND TOOLS SECTION SIDE BY SIDE IN ABOUT ME */
 
-.skills-tools {
+.skills-section {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .skills {
@@ -55,4 +68,8 @@
   align-items: center;
   border: 1px solid black;
   width: 300px;
+}
+
+.resume-button {
+  display: block;
 }

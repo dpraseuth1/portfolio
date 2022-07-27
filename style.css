@@ -63,11 +63,23 @@ img {
 .skills {
   display: flex;
   flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
   gap: 5px;
-  justify-content: center;
-  align-items: center;
   border: 1px solid black;
   width: 300px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  list-style: none;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
 }
 
 .resume-button {
